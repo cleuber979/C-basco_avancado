@@ -1,0 +1,17 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+// Para usar #define precisa colocar aqui abaixo dos includes
+#define NUM_VIDAS 10
+
+int main() {
+   
+   //const int NUM_VIDAS = 10;
+   int totalDeVidas;
+   totalDeVidas = NUM_VIDAS - 1;
+   
+   std::cout<<"Total de vidas : "<<totalDeVidas<< "\n";
+   std::cout<<"Valor constante NUM_VIDAS "<<NUM_VIDAS  <<"\n";
+   system("PAUSE");
+   
+   
+}
