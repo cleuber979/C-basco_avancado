@@ -1,0 +1,16 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+
+int main() {
+  
+  int Numero01;
+  int Numero02;
+  
+  std::cout<<"digite o primeiro numero ;  ";
+  std::cin>>Numero01;
+  std::cout<<"O valor colocado na variavel Numero01 = "<<Numero01<<std::endl;
+   std::cout<<"digite o segundo numero ;  ";
+   std::cin>>Numero02;
+   std::cout<<"O valor colocado na variavel Numero02 = "<<Numero02<<std::endl;
+    system("PAUSE");
+}
